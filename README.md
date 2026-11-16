@@ -39,4 +39,5 @@ Repos privados, en desarrollo.
 ## Formación
 
 - Auditor Líder ISO 9001 e ISO 45001 (ERCA) · ISO 14001 (CQI/IRCA)
+- Programa de gases de efecto invernadero y huella de carbono (SGS Academy, 2025) · cursos de los Estándares GRI (GRI Academy, 2026)
 - Ingeniero Industrial · egresado de la Maestría en Medio Ambiente y Sistemas Integrados de Gestión (UNSA)
