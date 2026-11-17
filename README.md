@@ -1,53 +1,57 @@
 # Edson Palomino
 
-**Sostenibilidad · IA aplicada · Organización**
+**Sustainability · Applied AI · Organization**
 
-Ingeniero industrial y auditor líder ISO en Arequipa, Perú. Llevo más de 15 años en sistemas de
-gestión, seguridad y medio ambiente, en minería, energía, construcción y servicios. Desde 2025
-construyo con agentes de IA las herramientas que mi propio trabajo necesitaba.
+Industrial engineer and ISO lead auditor based in Arequipa, Peru. I have spent 15+ years in
+management systems, health, safety and environment across mining, energy, construction and
+services. Since 2025 I have been building, with AI coding agents, the tools my own work needed.
 
-No vengo del software, vengo de la auditoría. Por eso lo que construyo se parece a un sistema de
-gestión: las reglas están escritas en código, cada cambio cita su evidencia y nada se cierra por
-adivinar.
+I don't come from software; I come from auditing. That is why what I build looks like a
+management system: the rules are written in code, every change cites its evidence, and nothing
+gets closed on a guess.
 
-## Lo que se puede ver
+## What you can see
 
-**[control-financiero-wat](https://github.com/edpauce/control-financiero-wat)** — el núcleo
-determinista de un agente que lleva el control financiero mensual de dos empresas: un gate de
-escritura con siete checks, sellos de integridad sobre los meses cerrados, una compuerta que
-valida cada fuente antes de calcular y el cruce de detracciones (SPOT) factura por factura.
-Python, 188 tests, datos ficticios.
+**[control-financiero-wat](https://github.com/edpauce/control-financiero-wat)** — the
+deterministic core of an agent that runs the monthly financial close of two companies: a write
+gate with seven checks, integrity seals on closed months, an intake gate that validates every
+source before any calculation, and invoice-by-invoice matching of Peruvian tax withholdings
+(SPOT). Python, 188 tests, fictitious data.
 
-**[registro-campo-offline](https://github.com/edpauce/registro-campo-offline)** — app web
-instalable para registrar mediciones hídricas en campo donde no hay señal: guarda primero en el
-equipo, abre sin conexión y genera el Excel en el propio teléfono. JavaScript sin dependencias,
-[demo en vivo](https://edpauce.github.io/registro-campo-offline/), datos ficticios.
+**[registro-campo-offline](https://github.com/edpauce/registro-campo-offline)** — an installable
+web app for recording water measurements in the field where there is no signal: it saves to the
+device first, opens offline and builds the Excel file on the phone itself. Dependency-free
+JavaScript, [live demo](https://edpauce.github.io/registro-campo-offline/), fictitious data.
 
-**[iso-agents](https://github.com/edpauce/iso-agents)** — servidor MCP que redacta los documentos
-de un sistema de gestión ISO cláusula por cláusula (Anexo SL): parte de los Word del cliente,
-entrega .docx con fidelidad exacta y deja visible cada cambio. TypeScript, licencia MIT. Es el
-módulo de documentación de Normia.
+**[iso-agents](https://github.com/edpauce/iso-agents)** — an MCP server that drafts the documents
+of an ISO management system clause by clause (Annex SL): it starts from the client's Word files,
+delivers .docx output with exact fidelity and keeps every change visible. TypeScript, MIT
+license. It is the documentation module of Normia.
 
-## En lo que trabajo
+## What I'm working on
 
-Repos privados, en desarrollo.
+Private repositories, in development.
 
-| Proyecto | Qué es | Con qué |
+| Project | What it is | Built with |
 |---|---|---|
-| **Huellia** | Plataforma multiempresa de huella de carbono e hídrica, alineada a NTP-ISO 14064-1, ISO 14046 y Huella de Carbono Perú (MINAM). | TypeScript · Next.js · Prisma |
-| **Normia** | Copiloto para sistemas de gestión ISO: matriz IPERC para ISO 45001, módulo de calidad para ISO 9001 y documentación cláusula por cláusula (ese módulo es público: iso-agents). | TypeScript · Python · Claude API |
-| **Matriz legal SSOMA** | Captura las normas del diario oficial, las clasifica por sector y mantiene una base de obligaciones con trazabilidad. | Python |
-| **Control financiero** | El sistema completo del que sale el repo público: más de 36,000 líneas de Python y 480 tests. | Python |
+| **Huellia** | Multi-tenant carbon and water footprint platform, aligned with NTP-ISO 14064-1, ISO 14046 and Peru's Carbon Footprint program (MINAM). | TypeScript · Next.js · Prisma |
+| **Normia** | Copilot for ISO management systems: hazard and risk matrix for ISO 45001, quality module for ISO 9001 and clause-by-clause documentation (that module is public: iso-agents). | TypeScript · Python · Claude API |
+| **SSOMA legal register** | Captures regulations from Peru's official gazette, classifies them by sector and keeps a traceable database of obligations. | Python |
+| **Financial control** | The full system the public repo comes from: 40,000+ lines of Python and 800+ tests. | Python |
 
-## Cómo trabajo
+## How I work
 
-- El modelo decide y orquesta; el código determinista ejecuta.
-- Las reglas de seguridad no van en el prompt: van en código que el agente no puede saltarse.
-- Sin evidencia citada, un dato no cambia de estado.
-- Cada test nombra el caso que lo motivó.
+- The model decides and orchestrates; deterministic code executes.
+- Safety rules don't live in the prompt: they live in code the agent cannot bypass.
+- Without cited evidence, a record does not change state.
+- Every test names the case that motivated it.
 
-## Formación
+## Training
 
-- Auditor Líder ISO 9001 e ISO 45001 (ERCA) · ISO 14001 (CQI/IRCA)
-- Programa de gases de efecto invernadero y huella de carbono (SGS Academy, 2025) · cursos de los Estándares GRI (GRI Academy, 2026)
-- Ingeniero Industrial · egresado de la Maestría en Medio Ambiente y Sistemas Integrados de Gestión (UNSA)
+- ISO 9001 and ISO 45001 Lead Auditor (ERCA) · ISO 14001 Lead Auditor (CQI/IRCA)
+- Greenhouse Gas and Carbon Footprint Programme (SGS Academy, 2025) · GRI Standards courses (GRI Academy, 2026)
+- Industrial Engineer · M.Sc. coursework completed in Environmental Management and Integrated Management Systems (UNSA)
+
+---
+
+*Versión en español: [README.es.md](README.es.md)*
